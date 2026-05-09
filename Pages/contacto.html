@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="../index.html" class="logo">
+          <img
+            src="../Img/logo_de_pagina.png"
+            alt="Logo de Mundo Comics"
+            class="logo"
+          />
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a class="monoton-regular" href="../index.html">Inicio</a></li>
+          <li><a class="monoton-regular" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-contacto text-primary">Contáctanos</h1>
+      <form
+        class="form-contacto"
+        action="https://formspree.io/f/mpwyjlaw"
+        method="POST"
+      >
+        <div class="grupo-input">
+          <label for="email" class="text-primary">Tu correo:</label>
+          <input id="email" type="email" name="email" required />
+        </div>
+        <div class="grupo-input">
+          <label for="mensaje" class="text-primary">Tu mensaje:</label>
+          <textarea id="mensaje" name="message" required></textarea>
+        </div>
+        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2026 Mundo Comics</p>
+      <p>Redes sociales</p>
+      <ul class="Footer-list">
+        <li><img src="../Img/instagram.png" alt="Instagram" />Instagram</li>
+        <li><img src="../Img/x.png" alt="X" />X</li>
+        <li><img src="../Img/facebook.png" alt="Facebook" />Facebook</li>
+      </ul>
+    </footer>
+  </body>
+</html>
