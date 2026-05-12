@@ -26,6 +26,8 @@ footer {
 }
 header {
   background-color: #4b0b0b;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 header,
 footer {
@@ -193,26 +195,26 @@ main {
   footer {
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* 👈 evita que se empujen hacia los bordes */
+    justify-content: center;
     padding: 1rem;
   }
 
   .Footer-list {
-    flex-direction: column; /* 👈 cada red social en una línea */
-    flex-wrap: nowrap; /* 👈 evita que se rompa el layout */
-    gap: 0.5rem; /* 👈 separación más pequeña */
-    align-items: center; /* 👈 centra los ítems */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    align-items: center;
     width: 100%;
   }
 
   .Footer-list li {
-    flex: none; /* 👈 no se estiran */
-    width: auto; /* 👈 se ajustan al contenido */
+    flex: none;
+    width: auto;
     text-align: center;
   }
 
   .Footer-list li img {
-    width: 2rem; /* 👈 íconos más pequeños en móvil */
+    width: 2rem;
     height: auto;
   }
 }
