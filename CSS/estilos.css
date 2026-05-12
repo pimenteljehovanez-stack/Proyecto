@@ -19,16 +19,11 @@ body {
   height: 100vh;
   text-align: center;
 }
-footer {
-  background-color: #4b0b0b;
-  flex-wrap: wrap;
-}
-header {
-  background-color: #4b0b0b;
-  flex-wrap: wrap;
-}
+
 header,
 footer {
+  background-color: #4b0b0b;
+  flex-wrap: wrap;
   width: 100%;
   color: white;
   display: flex;
@@ -199,7 +194,6 @@ main {
 
   .Footer-list {
     flex-direction: column;
-    flex-wrap: nowrap;
     gap: 0.5rem;
     align-items: center;
     width: 100%;
@@ -207,12 +201,10 @@ main {
 
   .Footer-list li {
     flex: none;
-    width: auto;
     text-align: center;
   }
 
   .Footer-list li img {
     width: 2rem;
-    height: auto;
   }
 }
