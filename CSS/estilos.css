@@ -191,20 +191,18 @@ main {
   footer {
     flex-direction: column;
   }
-  .card {
-    width: 100%;
-    max-width: 30rem;
+  .Footer-list {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
   }
 
-  .btn {
-    font-size: 1.4rem;
-    padding: 0.8rem;
-    width: 100%;
+  .Footer-list li {
+    flex: 1 1 100%;
+    justify-content: center;
   }
 
-  .text-primary-card,
-  .text-secondary-card {
-    font-size: 1.4rem;
-    word-wrap: break-word;
+  .Footer-list li img {
+    width: 2rem;
   }
 }
