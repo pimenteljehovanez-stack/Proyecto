@@ -190,19 +190,21 @@ main {
   footer {
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* 👈 evita que se empujen hacia los bordes */
     padding: 1rem;
   }
 
   .Footer-list {
-    flex-wrap: wrap; /* 👈 permite que los ítems bajen a otra línea */
-    gap: 1rem; /* 👈 reduce separación */
-    justify-content: center; /* 👈 centra los ítems */
-    width: 100%; /* 👈 que se ajuste al ancho */
+    flex-direction: column; /* 👈 cada red social en una línea */
+    flex-wrap: nowrap; /* 👈 evita que se rompa el layout */
+    gap: 0.5rem; /* 👈 separación más pequeña */
+    align-items: center; /* 👈 centra los ítems */
+    width: 100%;
   }
 
   .Footer-list li {
-    flex: 1 1 100%; /* 👈 cada ítem ocupa ancho completo */
-    justify-content: center; /* 👈 centra el contenido dentro del li */
+    flex: none; /* 👈 no se estiran */
+    width: auto; /* 👈 se ajustan al contenido */
     text-align: center;
   }
 
