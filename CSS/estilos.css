@@ -191,4 +191,20 @@ main {
   footer {
     flex-direction: column;
   }
+  .card {
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .text-primary-card,
+  .text-secondary-card {
+    font-size: 1.4rem;
+    word-wrap: break-word;
+  }
 }
