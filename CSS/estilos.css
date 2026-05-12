@@ -187,22 +187,27 @@ main {
 /*        MEDIA QUERY          */
 /*=============================*/
 @media (max-width: 600px) {
-  header,
   footer {
     flex-direction: column;
+    align-items: center;
+    padding: 1rem;
   }
+
   .Footer-list {
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    flex-wrap: wrap; /* 👈 permite que los ítems bajen a otra línea */
+    gap: 1rem; /* 👈 reduce separación */
+    justify-content: center; /* 👈 centra los ítems */
+    width: 100%; /* 👈 que se ajuste al ancho */
   }
 
   .Footer-list li {
-    flex: 1 1 100%;
-    justify-content: center;
+    flex: 1 1 100%; /* 👈 cada ítem ocupa ancho completo */
+    justify-content: center; /* 👈 centra el contenido dentro del li */
+    text-align: center;
   }
 
   .Footer-list li img {
-    width: 2rem;
+    width: 2rem; /* 👈 íconos más pequeños en móvil */
+    height: auto;
   }
 }
