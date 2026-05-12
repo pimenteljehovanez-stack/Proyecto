@@ -20,12 +20,15 @@ body {
   text-align: center;
 }
 footer {
+  background-color: #4b0b0b;
   flex-wrap: wrap;
   padding: 1rem;
 }
+header {
+  background-color: #4b0b0b;
+}
 header,
 footer {
-  background-color: #4b0b0b;
   color: white;
   width: 100%;
   display: flex;
