@@ -19,7 +19,10 @@ body {
   height: 100vh;
   text-align: center;
 }
-
+footer {
+  flex-wrap: wrap;
+  padding: 1rem;
+}
 header,
 footer {
   background-color: #4b0b0b;
