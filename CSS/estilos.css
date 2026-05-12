@@ -22,17 +22,15 @@ body {
 footer {
   background-color: #4b0b0b;
   flex-wrap: wrap;
-  padding: 1rem;
 }
 header {
   background-color: #4b0b0b;
   flex-wrap: wrap;
-  padding: 1rem;
 }
 header,
 footer {
-  color: white;
   width: 100%;
+  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -110,7 +108,7 @@ main {
 .card {
   margin: 1rem;
   background-color: #3b3b3b;
-  width: 40rem;
+  width: 30rem;
   border-style: solid;
   padding-bottom: 3rem;
   border-radius: 1rem;
