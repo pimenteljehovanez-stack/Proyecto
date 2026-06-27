@@ -1,5 +1,5 @@
 import {
-  guardCarrito,
+  guardarCarrito,
   obtenerCarrito,
   vaciarCarritoStorage,
 } from "./storage.js";
@@ -32,4 +32,4 @@ export const vaciarCarrito = () => {
   actualizarContador([]);
   mostrarMensaje("Carrito vacio");
 };
-//...
+//..

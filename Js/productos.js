@@ -2,7 +2,7 @@ export const productos = [
   {
     id: "1",
     name: "The Amazing Spider-Man #26",
-    img: "Img/the_amazing_spider_man.jpg",
+    img: "/Img/the_amazing_spider_man.jpg",
     price: 60,
   },
   {

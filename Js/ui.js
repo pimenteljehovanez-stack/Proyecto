@@ -5,8 +5,6 @@ export const actualizarContador = (carrito) => {
   }
 };
 
-contador = "";
-
-export const mostrarMensaje = (mensaje) => {
-  alert(mensaje);
+export const mostrarMensaje = (texto) => {
+  alert(texto);
 };
