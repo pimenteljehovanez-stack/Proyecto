@@ -1,4 +1,3 @@
-import { productos } from "./productos.js";
 import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
@@ -6,7 +5,7 @@ import { actualizarContador } from "./ui.js";
 const renderizarProductos = () => {
   const contenedor = document.getElementById("contenedor-tarjetas");
 
-  fetch("/Data/productos.json")
+  fetch("./Data/productos.json")
     .then((response) => response.json())
     .then((productos) => {
       productos.forEach((producto) => {
