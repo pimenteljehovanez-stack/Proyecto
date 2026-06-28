@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "The Amazing Spider-Man #26",
+    "img": "/Img/the_amazing_spider_man.jpg",
+    "price": 60
+  },
+  {
+    "id": "2",
+    "name": "Amazing Fantasy Spider-Man",
+    "img": "Img/amazing_fantasy_spider_Man.jpg",
+    "price": 80
+  },
+  {
+    "id": "3",
+    "name": "Batman • Superman: World's Finest",
+    "img": "Img/batman_._superman,_worlds_finest.jpg",
+    "price": 100
+  },
+  {
+    "id": "4",
+    "name": "Batman: The Killing Joke",
+    "img": "Img/batman,_the_killing_joke.jpg",
+    "price": 120
+  },
+  {
+    "id": "5",
+    "name": "Deadpool vs. Sabretooth",
+    "img": "Img/deadpool_vs_sabretooth.jpg",
+    "price": 60
+  },
+  {
+    "id": "6",
+    "name": "Deadpool #1 (Homage Edition)",
+    "img": "Img/deadpool.jpg",
+    "price": 60
+  },
+  {
+    "id": "7",
+    "name": "Spider-Man: Kraven's Last Hunt",
+    "img": "Img/te_amazing_spider_man,_kravens_last_hunt.jpg",
+    "price": 60
+  },
+  {
+    "id": "8",
+    "name": "Absolute Batman",
+    "img": "Img/absolute_Batman.jpg",
+    "price": 60
+  }
+]
